@@ -2,6 +2,9 @@
   .img-panels {
     flex-direction: column;
     width: 100%;
+    img {
+      padding: 3% 0 0 0;
+    }
   }
   .footer {
     flex-direction: column;
