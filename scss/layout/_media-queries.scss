@@ -1,4 +1,32 @@
-@media screen and (max-width: 765px) {
+@media screen and (max-width: $largeBreakpoint) {
+  .links {
+    a {
+      font-size: 15px;
+    }
+  }
+
+}
+
+
+
+
+@media screen and (max-width: $smallBreakpoint) {
+  .menu {
+    display: flex;
+  }
+
+  .links {
+    display: none;
+  }
+
+  .navbar {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+  }
+
+
   .img-panels {
     flex-direction: column;
     width: 100%;
