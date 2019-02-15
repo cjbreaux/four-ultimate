@@ -1,3 +1,7 @@
+@font-face {
+  font-family: BorisBlackBloxx;
+  src: url("../fonts/BorisBlackBloxx.ttf");
+}
 body {
   display: flex;
   justify-content: center;
@@ -7,11 +11,34 @@ body {
   display: flex;
   flex-direction: column;
   max-width: 1200px;
+  border: 1px solid red;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
+  text-transform: uppercase;
+}
+.navbar a {
+  text-decoration: none;
+  font-family: BorisBlackBloxx;
+  color: black;
+  font-size: 25px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+}
+.links a {
+  margin-right: 30px;
+}
+
+.home a:first-child {
+  color: red;
+}
+.home a:last-child {
+  color: grey;
 }
 
 .carousel img {
@@ -39,6 +66,10 @@ body {
   margin: 20px;
   background-color: black;
   color: white;
+}
+.footer-card h3 {
+  text-transform: uppercase;
+  text-align: center;
 }
 
 @media screen and (max-width: 765px) {
