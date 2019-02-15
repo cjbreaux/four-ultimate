@@ -1,0 +1,10 @@
+.img-panels {
+  display: flex;
+  align-items: flex-start;
+  width: (100%/3);
+  border: 1px solid red;
+
+  img {
+    width: 100%;
+  }
+}

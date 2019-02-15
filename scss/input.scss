@@ -7,50 +7,12 @@ body {
 
 .container {
   display: flex;
-
   flex-direction: column;
   max-width: 1200px;
-
-
-
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
-
-.carousel {
-  img {
-    width: 100%
-
-  }
-}
-
-
-.img-panels {
-  display: flex;
-  align-items: flex-start;
-  width: (100%/3);
-  border: 1px solid red;
-
-  img {
-    width: 100%;
-  }
-}
-
-.footer {
-  display: flex;
-  align-content: center;
-  justify-content: space-around;
-
-}
-
-@media screen and (max-width: 765px) {
-  .img-panels {
-    flex-direction: column;
-    width: 100%;
-
-  }
-
-}
+@import "layout/navbar";
+@import "layout/carousel";
+@import "layout/img-panel";
+@import "layout/footer";
+@import "layout/media-queries";
