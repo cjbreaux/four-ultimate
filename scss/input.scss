@@ -3,7 +3,30 @@
   border: 1px solid red;
 }
 
+.container {
+
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
+}
+
+.carousel {
+  img {
+    width: 100%
+
+  }
+}
+
+.img-panels {
+  display: flex;
+  align-items: flex-start;
+  width: (100%/3);
+
+  img {
+    width: 100%;
+    max-height: 400px;
+
+  }
 }
