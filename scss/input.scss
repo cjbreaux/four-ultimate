@@ -3,7 +3,19 @@
   border: 1px solid red;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+}
+
+
 .container {
+  display: flex;
+
+  flex-direction: column;
+  max-width: 1200px;
+
+
 
 }
 
