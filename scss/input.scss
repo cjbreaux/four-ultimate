@@ -1,18 +1,6 @@
 @import "abstracts/variables";
 @import "base/typography";
-
-body {
-  display: flex;
-  justify-content: center;
-}
-
-
-.container {
-  display: flex;
-  flex-direction: column;
-  max-width: 1200px;
-}
-
+@import "pages/index-page";
 @import "layout/navbar";
 @import "layout/carousel";
 @import "layout/img-panel";

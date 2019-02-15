@@ -30,14 +30,6 @@ body {
   font-size: 25px;
 }
 
-.links {
-  display: flex;
-  flex-wrap: wrap;
-}
-.links a {
-  margin: 0 30px;
-}
-
 .home {
   flex: 0 0 auto;
 }
@@ -47,6 +39,14 @@ body {
 }
 .home a:last-child {
   color: grey;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+}
+.links a {
+  margin: 0 30px;
 }
 
 .black-bar {
@@ -87,9 +87,12 @@ body {
   background-color: black;
   color: white;
 }
-.footer-card h3 {
+.footer-card h5 {
   text-transform: uppercase;
   text-align: center;
+  font-family: BorisBlackBloxx;
+  letter-spacing: 1px;
+  margin: 5%;
 }
 
 @media screen and (max-width: 985px) {

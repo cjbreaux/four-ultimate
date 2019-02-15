@@ -7,10 +7,13 @@
 
 .footer-card {
   margin: 20px;
-  background-color: black;
+  background-color: $bgColor;
   color: white;
-  h3 {
+  h5 {
     text-transform: uppercase;
     text-align: center;
+    font-family: BorisBlackBloxx;
+    letter-spacing: 1px;
+    margin: 5%;
   }
 }

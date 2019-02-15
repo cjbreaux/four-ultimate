@@ -10,16 +10,8 @@
   a {
     text-decoration: none;
     font-family: BorisBlackBloxx;
-    color: black;
-    font-size: 25px;
-  }
-}
-
-.links {
-  display: flex;
-  flex-wrap: wrap;
-  a {
-    margin:0 30px;
+    color: $bgColor;
+    font-size: $navTextSize;
   }
 }
 
@@ -33,6 +25,13 @@
   }
   &:last-child {
     color: grey;
+  }
+}
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  a {
+    margin:0 30px;
   }
 }
 
