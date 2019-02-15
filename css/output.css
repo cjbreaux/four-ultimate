@@ -1,5 +1,11 @@
-p {
-  color: red;
+* {
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=output.css.map */
