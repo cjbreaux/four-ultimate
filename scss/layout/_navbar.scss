@@ -14,8 +14,12 @@
   display: flex;
   flex-wrap: wrap;
   a {
-    margin-right: 30px;
+    margin:0 30px;
   }
+}
+
+.home {
+  flex: 0 0 auto;
 }
 
 .home a {
