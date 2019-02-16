@@ -1,5 +1,5 @@
-![five-ultimate](imgs/fiveultimate.png)
-![five-ultimate](imgs/fourultimate.png)
+![five-ultimate](img/fiveultimate.png)
+![five-ultimate](img/fourultimate.png)
 
 
 ### Fifth Independent project for Epicodus - 2019
